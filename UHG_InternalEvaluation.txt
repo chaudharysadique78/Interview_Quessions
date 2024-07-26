@@ -1,0 +1,38 @@
+
+Sentence is a form of String, write a code to get each word, and the number of occurrances of each word.
+mention if it has atleast one vowel or not.
+
+
+String str="Hello java world";
+
+String[] words= str.split(" ");
+
+Map<String,Integer> frequencyMap=new HashMap();
+
+for(String word:words){
+frequencyMap.put(word,frequencyMap.getOrDefault(word,0)+1);
+}
+
+for(Map.Entry<String,Integer> entry:frequencyMap.entrySet()){
+String word= entry.getKey();
+int frequency=entry.getValue();
+
+Sytem.out.println()
+
+}
+
+ArrayList -> Employee Object
+
+Employee -> Salary
+Quest :  Double the salary of each employee in the list using Stream
+
+
+List<employee> employeeList=new ArrayList<>;
+employeeList.add(new Employee(1,2000));
+employeeList.add(new Employee(2,4000));
+
+employeeList.stream().map(e-> e.getSalary()*2).collect(Colletrs.toList());
+
+
+collection,
+inner join,outer join,java8,JPA query

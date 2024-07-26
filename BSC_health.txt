@@ -1,0 +1,40 @@
+venish.kannan@cognizant.com
+
+
+
+int a =10;
+int b=10
+int c=5
+
+if(a>=b & a>=c ){
+Sop(a);
+}else if(b>=c & b>=a)
+{
+sop(b)
+}else if(c>=a & c>=b){
+sop(c)
+}else if(a=b=c){
+sop(a)
+}
+
+
+Student 
+
+
+int roll;
+String name;
+
+
+List<stufdent> studentList=new ArrayList();
+studentList.add(new Student(1,"Sadik"));
+studentList.add(new Student(2,"SADaN"));
+
+studentList.stream().forEach(e->sop(e));
+
+Map <Integer,Student> map=new HashMap();
+map.put(1,new Student(1,"Sadik"));
+map.put(2,new Student (2,"Sadan"));
+
+for(Map.entry entry:map.entrySet()){
+sop(entry.getKey()+" "+entry.value())
+}

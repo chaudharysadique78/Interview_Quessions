@@ -1,0 +1,64 @@
+
+convert student list to map where key is student id and value is student
+filter the student based on Andeheri junit for same both
+pagination
+
+ studentList.stream().collect(Collector.toMap(student-> student.getId(), student-> student));
+  
+List<Student> collect  =student.stream().filter(student-> "Andheri".egualIgnoreCase(student.getAddress())).collect(Collectors.toList());
+ Optional.of(collect)
+
+***********************************************************************************************************************************
+
+list= 1,5,6,7,5,4,9,2,2
+n=5
+ouput: 5,5,1,6,7,4,9,2,2
+
+public List<Integer> get(List<Integer> list , int n){
+ 
+  
+ 
+}
+
+public class Employee {
+ 
+	private Integer id;
+	private String firstName;
+	private String lastName;
+	private List<String> department;
+	private Double salary;
+	private Integer age;
+	private Integer yearOfJoining;
+	private String gender;
+ 
+}
+ 
+List<Employee> employees = new ArrayList<>();
+
+department.stream().distinct().collect(Collectors.toList());
+
+
+
+
+public  abstract Class A{
+public void m1(String s, String s2){
+System.out.print(s)
+}
+public abstract void add(Integer s);
+
+public void m1(String s){
+System.out.print(s)
+}
+}
+------------------
+public Class B extends A{
+ 
+public void add(Integer s){
+System.out.print(s)
+}
+public static void main(String [] args){
+  A a = new B();
+ 
+a.m1("rajesh")
+}
+has context menu

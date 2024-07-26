@@ -1,0 +1,20 @@
+--------------------------------------------------------------------Interview Questions--------------------------------------------------------------------
+Note:- Quetions will be asked based on your skill's  rating
+
+1.Microservice Architecture?
+2.Immutable class and it's rules?
+3.java 8 Features?
+4.How to write mockito for exception?
+5.Internal Working of Concurrent Hashmap?
+6.How to make thread safe hashmap?
+7.Spring MVC architecture?
+8.How to make REST API?
+9.What is String pool?
+10.What is Collection?
+11.How to make springboot project?
+12.What is Hibernate and its lifecycle?
+13.What is N+1 problem in hibernate?
+14.What is JPA?
+15.What is Exception?
+16.what is mockito and junit ?
+

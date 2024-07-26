@@ -1,0 +1,33 @@
+narendersingh.flora@cognizant.com    SO ID - 5526533(May BE)
+
+@RestController
+@RequestMapping("/api")
+class HomeController{
+
+@Autowired
+private UserService userService
+
+@PostMapping(/saveUser)
+public ResponseEntiy<User> cresteUser(@RequestBody User user){
+  userService.saveUser(user);
+  return new ResponseEntiy<>(User,HttpStatus.CREATED);
+}
+
+}
+
+
+@Service
+class UserService{
+
+private 
+
+}
+
+
+mockito.when(homeCroller.cresteUser).thenReturn()
+
+
+reactiveX
+cashing tech 
+
+

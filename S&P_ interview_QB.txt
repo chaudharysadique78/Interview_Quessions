@@ -1,0 +1,327 @@
+Please prepare on below topics and apart from please prepare on Multithreading , Executor framework, Core java, Spring , spring boot, ms and SQL (queries using joins and group by ) in depth
+Asked by Narayan :
+ 
+1.	Introduce yourself and your project- Questions related project
+2.	What are the microservices deign patterns you have implemented in your project? API gateway .. 
+3.	Is API gateway design pattern? Yes ,then explain
+4.	How did you implemented security for your microservices? 
+5.	Do you know oauth ? is it frame work or what?
+6.	Types of design pattern
+7.	Explain any other design pattern except Singleton Design pattern? I said factory design pattern , so then write psedo code
+8.	Builder design pattern
+9.	Sl4j and log 4j difference? Questions related 
+10.	Why spring boot what is the use? Can you explain me how it internal works ?flow
+11.	Why Spring Actuators? can you explain
+12.	Talk Something about serialization and deserialization? What is the use ? cant we do serializable without implementing serializable interface
+13.	Array list vs linked list?how both will work internally ? can ypu explain in detail..some questions related to TimeComplexity
+14.	How AWS ECS will work
+15.	Do you know Docker 
+16.	One service is not coming up then how you will make sure to make it up? AWS cloud watch 
+17.	Can you talk abut AWS lamda 
+18.	How comfortable you are in Oracle?Write 3rd highest salary  
+19.	What is the use of Index ? How actually it works
+20.	Left join and right join examples .
+Asked by Akshay Jain:
+ 
+1.	Tell me about you project and roles and responsibility in detail.? Questions related project architecture etc..
+2.	Disadvantages of creating number of microservices? 
+3.	Why Microservices.
+4.	How you are communicating the microservices with each other?
+5.	Suppose one  microservices went down. I want to make that service available and scalable , How you will do ? Ans: Circuit breaker design pattern so then explain circuit design pattern
+6.	Do you know any other Microservices design pattern? Yes API gateway, SAGA, BFF 
+7.	Rabbit MQ? Publisher and Receiver? Who will listen the messages?
+8.	Rate yourself in Java?rate yourself in multithreading 
+9.	Did you implemented multithreading in your project? Yes I said CompletableFuture thn explain how did you implemented and write pseudo code.
+10.	Deamon thread? How to make a thread as Deamon Thread
+11.	Race Condition?
+12.	Deadlock?
+13.	What are the collections you know?
+14.	List disadvantages? 
+15.	Mao internal working> Questions on Key as a Employee object what will happen if you don’t implement equals and hashcode, what if only implements  equals , hash code 
+How Map will work
+16.	public class immutab;e{
+List list;
+       }
+     Question: Is this imutable class if yes how ? if No how to make  it as immutable class
+17.	create immutable class using list.
+18.	So hash map will work on .equal () but I want to use == , Which collection you will use? Ans: identityHashmap it stores key reference
+19.	Spring IOC
+20.	Spring DI
+21.	what is the diff bw Spring and spring boot
+22.	isolation in transaction  management?
+23.	What is the difference BW inheritance and Encpasulation? Questions related to the topic? 
+24.	Can we do inheritance in the parent class without extends..? 
+25.	Polymorphisam? Method overloading and method overriding
+26.	What is the deployment process ?
+27.	Left join and right join difference ? take one example , explain and write the queries
+28.	What Is the use indexing 
+29.	types of indexes
+ 
+IBoxx:
+profile type in spring
+project A depend on project b how to configure in pom.xml
+how profile calling from DB in differernt environment
+why API gateway?
+singly linked list - time complexity to add an entity at head and tail- lifo/fifo
+@qualifier - in spring boot - what it does
+if we need to run 100 independent entities, how do we run without using executor framework - something to do with autoscaling 
+what happens when spring boot starts up
+did you work in any messaging services
+ 
+Hi Team,
+ 
+ 
+ 
+Please find below iboxx client interview questions.
+ 
+Prakash
+1.	How Api gateway communicate to registery server
+2.	How to identify dev,qa,and prod
+3.	How to configure 2 databases
+4.	If there are yml and proportie which one it will pick first
+5.	1. write immutable class using this fields -
+
+String name;
+
+Date doj;
+
+List<Project> projectList
+6.	read file and find out the particular word
+7.	Employee Table:
+ID, Name, Salary, Dept_ID
+Department Table:
+Dept_ID, Deptname
+Fetch employee name, department name and salary for those employees having second highest salary in each department
+8.	explain Project and you responsibility in project
+9.	what is the use of synchronize(employee.class)?
+ 
+ 
+ 
+1.Collection time complexity
+2.When to use arraylist and linked list?
+3.when to use hash set and tree set and its internal working?
+4.concurrent hashmap internal implementation
+5.Immutable class
+6.Synchronization
+7.wait and sleep
+8.Thread pool
+9.How Index works internally
+ 
+1. what will be the output
+class Parent {
+              Parent(){
+                             test();
+              }
+              public void test() {
+                             System.out.println("Parent");
+              }
+}
+class Child extends Parent{
+              public void test() {
+                             System.out.println("Child");
+              }
+}
+ 
+ 
+public class Test {
+ 
+              public static void main(String[] args) {
+                             Parent p = new Child();
+              }
+ 
+}
+ 
+2.
+class ThreadSafeOrNOt{
+public int add(int a , int b ){
+return a+b;
+}
+}
+ 
+3.
+EmployeeId Name Managerid
+1 Atul 5
+2                        Prashant        5
+3                        Asif                1
+4                        Abhay                5
+5                        Shalabh         null
+ 
+write a query
+employeename managername
+Atul                     Shalabh
+ 
+ 
+4. what are SOLID principles?
+5. why we create immutable classes? are you aware of any immputable class?
+6. are you aware of any design pattern?
+7. questions based on previous project architecture?
+8. are you aware of immutable classes other than String?
+9. different type of garbage collectors
+10. method overloading and method overriding?
+11. when we use method overriding?
+ 
+Rahul Taneja
+1.Time complexity for ArrayList,Linkedlist,Hashset, Treemap, concurrenthashmap
+2.In Set, how to store elements in insertion order?
+3.Lifecycle of thread
+4.what is immutable class. Write an immutable class
+5.write a code for deadlock scenario
+1. Explain project architecture
+2. Write custom class that creates fixed thread pool ..(ans - create class and will have constructor getThread methods etc)
+3. If class has 4 method A and B are dependent and C & D are dependent then how will you handle the thread safely- answer add locking using synchronised
+4. SQL - if student and subject tables are there with M to M relationship then how will you create tables
+5. Follow up question if I want all the subject to fetch using student name write query
+6. Follow up question if no subject is assigned the print site r name and return null for the subject write query
+7. Internal working of concurrent HashMap
+ 
+ 
+Questions asked by Vikas Gupta:
+1]Employee Table:
+Id,  Name, Salary, Dept_Id
+1    A     1000  101
+2  B     2000  101
+3  C    3000  102
+4  D     3000  102
+ 
+Department Table:
+Dept_Id, Dept_Name
+101        DEV
+102      QA
+Fetch emplyee name, salary and department name having highest salary in each department
+ 
+2]class Base   
+{  
+    public void baseMethod()  
+    {  
+        System.out.println("BaseMethod called ...");  
+    }  
+}  
+class Derived extends Base   
+{  
+    public void baseMethod()  
+    {  
+        System.out.println("Derived method called ...");  
+    }  
+}  
+public class Test   
+{  
+    public static void main (String args[])  
+    {  
+        Base b = new Derived();  
+        b.baseMethod();  
+    }  
+}  
+ 
+3]Types of sql commands
+ 
+DML,DDL,..
+4]What is index? Can we perform DMl in index?
+5]we have 2 threads 
+one thread is printing even numbers
+second thread is printing odd numbers
+ 
+result should be in sequence way like 1,2,3,4,5,6,7,8,9,10
+
+S&P Global
+Questions by Ramya : 
+checked and unchecked exceptions
+diff between Error and Exception
+Output of following snippets :
+public static void main(String args[]){  
+       Integer in=1;  
+       int i = in;  
+       System.out.println(i);  
+     } 
+
+    public static void main(String args[]){  
+       Integer in=null;  
+       int i = in;  
+       System.out.println(i);  
+     }
+class Test
+    {
+      // static variable
+      static int a = 10;
+      static int b;
+
+      // static block
+      static {
+        System.out.println("Static block initialized.");
+        b = a * 4;
+      }
+
+      public static void main(String[] args)
+      {
+         System.out.println("from main");
+         System.out.println("Value of a : "+a);
+         System.out.println("Value of b : "+b);
+      }
+    }
+// Class 1
+    // Helper class
+    class Test {
+ 
+      // Case 1: Static variable
+      static int i;
+      // Case 2: Non-static variable
+      int j;
+ 
+      // Case 3: Static blocks
+      static
+      {
+        i = 10;
+        System.out.println("static block called ");
+      }
+ 
+      // Constructor calling
+      Test() { System.out.println("Constructor called"); }
+    }
+ 
+    // Class 2
+    // Main class
+    class GFG {
+ 
+      // Main driver method
+      public static void main(String args[])
+      {
+ 
+        // Although we have two objects, static block is
+        // executed only once.
+        Test t1 = new Test();
+        Test t2 = new Test();
+      }
+    }
+class Testimmutablestring{  
+public static void main(String args[]){  
+   String s="Sachin";  
+   s.concat(" Tendulkar");
+   System.out.println(s); 
+}  
+}  
+class Testimmutablestring{  
+public static void main(String args[]){  
+   String s="Sachin";  
+   s = s.concat(" Tendulkar"); 
+   System.out.println(s);
+}  
+}  
+What is serialization?
+What is the transient keyword?
+singleton and prototype scopes in spring and their differences
+how to skip default Datasource configuration in spring boot
+How to write a junit test case for a void method
+What is Garbage Collection?
+System.gc()
+what is permGen space issue?
+Metaspace?
+OutOfMemoryError
+Spring security
+Oauth
+Authentication and authorization (what is difference/ is oauth used for authorization or authentication)
+What is a view in SQL
+What is an Index in SQL?
+TRIGGER
+What is the difference between the WHERE and HAVING clauses?
+Query to write highest salary department wise
+
+

@@ -1,0 +1,271 @@
+Imran
+write sql query to find city wise employee
+write sql query to count the company leaving date between 2000 to 2005 employee
+Springboot internal work folow
+write the rest api to print the list of employee whose city is bangalore
+print the only number from given string s=gdhad 42353    14th;
+how to map json object to employee
+how to handle the exception
+java 8 features
+count the city wise employee in java 8
+ 
+ 
+Rakesh Sharma
+how to load high volume of data through a api 
+what would be security compliance
+how can we split and transform the data if data are in high volumns
+rest few statements form simple DML
+sql query like aggregate function uses and performance tuning 
+Design patterns
+Microservice design patterns for inter communication 
+Consolidated extract report from many microservices
+how to schedule  a scheduler for monthly
+
+ 
+Kamlesh patil
+1) Write a program to get student age greater than 20 and 25 
+2) how to Consume external API 
+3) Write a code for student class having id,name ,age ,address in Spring Boot with method
+4) What is Spring security  how to implement in your project
+5) Microservices advantages and dis advantages 
+ 
+ 
+Vidya
+how to load 1 million data in the database
+Write a sample code snippet
+If I want to display the data of rows containing 1 lakh - what is the best possible way
+Write a sample code snippet.
+How to increase throughput and reduce latency from the database side.
+Concat the listObj from 2 different lists
+How to increase the performance of the application.
+How do you extract report from many datasource and high volume data in db.
+Kafka topic related scenario questions.
+Naeelakath
+How to fetch the data (write a query) in your application 
+abstract class and interfaces in your applicatio 
+How to PR your code 
+How to use Inheritence in your application 
+Hashmap internally working 
+Write a program to 2nd higest salery employee list in Java8 
+Write a MySQL query maximm salery in employee table 
+How to intenally working Despatcer Servlet 
+How to ConcorentHashmap Internally working 
+Spring Bean Life cycle 
+Micorsrvice Architecture & Monolithic architecture 
+ 
+Imran
+ 
+write sql query to find city wise employee
+write sql query to count the company leaving date between 2000 to 2005 employee
+Springboot internal work folow
+write the rest api to print the list of employee whose city is bangalore
+print the only number from given string s=gdhad 42353    14th;
+how to map json object to employee
+how to handle the exception
+java 8 features
+count the city wise employee in java 8
+ 
+Kishore
+1.	Monolith vs Microservices which one is better
+2.	Challenges with Microservices
+3.	How to handle transactions in one Microservice
+4.	How to handle transactions if it spans across multiple microservice
+5.	What to do if a microservice involved in a transaction is completely down
+6.	Write code to create a card from controller to repo layer(share the screen and type in notepad)
+7.	Write code to sort cards by card type and card category in java8 using streams(share the screen and type in notepad)
+8.	Write a query to sort cards using the same criteria
+9.	Write a query to sort based on transactionLimit and get the top 10 with most transactionLimit
+10.	What are solid design principles
+11.	What is strategy pattern.
+ 
+ 
+Wilky singh
+1. Write controller,service and JPA like structure for Employee
+2. Employee can have a manager ,so find the manager id for the employee
+3. To find sum of the salaries of  all the employees under each manager
+4. write sql query to also to find the same
+5. Discussion on Hashmap implementation.Resolution techniques for collisions.
+6. Exception handling for the anomalies in the above cases.
+7. Group employee based on department and then salary using java streams
+8. Self join related questions
+9. OnetoMany mapping in Hibernate, code structure for the same in java. eg. Manager to many employees
+ 
+Vishal
+sql query to get count of employee joined in year 2024
+sql query to get count of employee joined in year 2014-2024
+java code to print count of employee year wise who joined from 2014 to 2024
+api code for above java scenario
+ 
+Bittu
+1. static keryword usage 
+2. Create endpoint to addProduct in DB
+3. Design liftSystem classes, methods, atttributes
+4. use stream to return map of productId and Product object
+5. SQL Query to fetch employee Count who joined in last year
+6. Select only uniques employeNmae form employe table
+7. Fetching 1 million recoreds from databse Aproach to be used
+8. Java 8 features
+9. How you handled the security of the application
+ 
+Sandeep Wagh
+Write the java code for employee fname and lname to find the non-repeated names.
+Write code to get web request in controller for employee and store it in db.
+For above if we have 1000 request body data and for same id fetch the address from another table and combine the list with both the datas and display.
+For above how we can avoid for loop and initially do with sql query with java
+Write this pseudo code using java8 features as well.
+If suppose we receive the exception in repository while storing the data, then what will happen
+How to tackle this situation and what impact will be there with other microservices
+Spring boot related annotations, patterns.
+ 
+Dinesh Sharma
+From Post request you Got employee id , name and Last name . from Db you get employee I and address , merge this and sent it to UI 
+lift system 
+map in Stream
+stream API 
+functional interface 
+if 2 interface is have same abstract method and a class is implementing both then which one will be called 
+sql query for getting unique name having  distinct employee full name
+ 
+ 
+1 write sql query to filter item based on manufacturing year and count the same.
+2 write sql query to filter item based on product initial name basically like query.
+3 java 8 api filter item from list based on manufacturing year and group it by product name.
+4 java spring boot syntax for get api based on manufacturing year and product type and group it by product name and manufacturing year.
+ 
+ 
+Mohammed Graphite
+1) explain the architecture of your project
+2) how you microservice loosly coupled
+3) how you decide which type of communication is good for microservices.
+4) why to use kafka and internal working of kafka 
+5) how consumer consume kafka.
+6) how to deal with large amount of data
+7) when you use relational and non relational databases
+8) what you are using for CICD pipeline
+9) Junit 
+10) print common element from 2 List
+ 
+ 
+Nagaraju -
+ 
+ 
+1) map key as object , then what are the steps to design the object
+ 
+2) map values as object then how to prepare a list of only two fields of those objects
+ 
+3) Regarding project asked more questions
+ 
+4) Apache Kafka vs Rabbit MQ
+ 
+5) Lets a bank is handling thousands of transactions at same time, then how will ensure data integrity and no loss on data . how multi thread scenario will be implemented here
+ 
+6) how to achieve asynchronous transaction management , using kafka and rabbit-mq
+ 
+7) how to achieve synchronous transaction management in a real time bank scenario
+ 
+8) spring vs spring-boot
+ 
+9) how to stop a request to not to go to DAO layer after passing through multiple layers. and how to throw exception here.
+ 
+10) how to stop a request to not process at any point of time in a real bank scenario.
+11) we have four methods , one method is having class level synchronization  , second method is having object level synchronization  , third method is having synchronized block and fourth method is method level synchronization . And we have multiple threads are trying to access all four methods at a time, then what will be happen
+12) multiple thread are trying to access same bank account , then what will happen and how will you resolve it
+these are the questions asked most of the are multi-thread and real time banking scenario questions 
+and others are event based system questions
+ 
+ 
+They are looking for a full-stack developer with front-end , back-end ,microservices and cloud experience as well.
+1)	Coding  Convert infix expression into prefix expression. Approach to it.
+a)	ab+c+de 
+b)	(ab+c)(de-f)
+2)	Currentlast project architecture. More questions on this.
+c)	How multiple components communicate 
+d)	How security framework implemented
+e)	How microservices implemented
+f)	How event based system implemented
+3)	Multi-thread questions.More questions on this
+g)	Executer framework vs concurrent collections
+h)	Concurrent hashmap internal implementation and how it works in multi-thread scenario
+i)	Equals and hashcode contract and how will it works in hasmap , if two objects gives same hashcode then how will it works .
+j)	Deadlock situation in real time and how to resolve it.
+4)	Functional interface vs interface vs abstract class. 
+a)	Differences bw them.
+b)	In real time scenarios which one you go for.
+c)	Two functional interfaces have same default method definition and a class implements both interfaces then which default method will be called at run time.
+5)	Db related
+a)	Sql query for 3rd highest salaray
+b)	Join types and explain
+6)	Spring related, more questions on this
+a)	Data source config and flow of data in a restful service. And its implementation.
+b)	Spring security 
+c)	Oauth2
+d)	AOP and real time examples 
+e)	Spring annotations , more questions on this
+7)	Any cloud experience
+8)	Any UI framework experience 
+9)	Java 8 coding related
+a)	List of employees , how to get employee details of 2nd highest salary in each department or a particular department.
+b)	BiFunction , BiPredicate related
+c)	Collectors , Optional class
+10)	ORM frameworks 
+a)	How to connect multiple databases
+b)	How to ensure a request to target to a database
+c)	Caching mechanism
+d)	Primary key with multiple columns 
+11)	Any Nosql experience
+ 
+ 
+Rajiti
+query to get count of employees dept wise
+microservices working & structure
+how 2 microservice communicate
+qualifier use with scenario
+if list is final,can we add element
+hashmap vs sync hashmap
+design patterns
+thread schedular
+exception in spring boot
+eureka server
+
+***********************************************************************************************************************************************
+Authentication & Authorization,how to implement?
+Questions in Spring security.How to prevent a user from accessing a GET request.
+String s = ._._.__..__._.@#_._.._
+where ._ replace with _. with out using functions 
+
+program on number of occurrences of a number in an array:
+input:  int[] arr = {1,1,1,2,2,3,3,4,4};
+output:  1  > 3times, 2  > 2 times, 3  > 2times, 4  > 2times
+1.    Hibernate ddl2auto create vs update.
+2.    Pagination in spring boot. What mechanism to avoid duplicates while using pagination.
+3.    How to call multiple microservices from one Get API
+4.    getBy vs findBy
+5.    how to create our own immutable class
+6.    which http method used for CSV file uploading and what’s the data type.
+7.    Difference between ElasticSearch and NoSql DB
+8.    Ecommerce website architecture
+9.    How to increase performance in SQL query
+10.  Can we use POST method instead of GET for getting data
+11.  How to make field required in REST API
+12.  Can we call Throwable in Catch block
+
+1)    A CSV file has posted from Updated with a detail of transaction on stock purchase.            
+AccNo,AccName,secCode,secName,amount,Type
+100,Steve,HDFC,HDFC,100,Buy
+100,Steve,HDFC,HDFC,1000,Buy
+100,Steve,HDFC,HDFC,50,Sell
+100,Steve,HDFC,HDFC,100,Buy 
+101,John,TCS,Tata Consultant Service,100,Buy
+a.    Normalize the data given in csv as RDBM structure.
+b.    Write a SQL to find the maximum amount in the transaction
+c.    Write a SQL to find second largest amount in the transaction
+2)    Application contains connection with mysql , mongoDb. Implement Transaction management to rollback if any one of source has failure while persist data.
+3)    Request has passthrough number of microservice in a Existing application, Calculate the time take for the request with minimum changes.
+4)    A microservice invoke a third party call to get data to generate response, implement a number of retry then alternate action if the service has failure
+5)    Input has nxn number of matrix with sorted values write sudo code to find given number from the matrix.
+2,4,6,
+8,9,12
+18,21,25
+
+
+

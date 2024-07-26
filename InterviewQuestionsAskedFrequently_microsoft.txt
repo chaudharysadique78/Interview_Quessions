@@ -1,0 +1,92 @@
+Java 8 Advantages
+What is Functional interface
+what is lamba
+Streams
+Microservices disadvantages
+Microservices communication
+Spring security- how do you secure your APIs
+jwt token generation
+Inversion of control
+Dependency injection
+Database how to increase performance
+How to mock third party Api
+java 8 question:
+List  list= [2,3,4,5,9,2,5,5,0,6,123,123,12,9,8,9,8]. Sort this list based on element frequency,if any two number have same frequency greater value comes first.
+Difference between java 17 and java 16
+Will migration from older java version to latest java version improve performance and how
+Have you used Stream API in your project
+Using Stream API how to find sum of Array
+explain stream aggregate for array and filter functions
+How to use re-set in java explain
+Why we need spring boot when we have spring
+what is the difference between spring singleton and java singleton
+Different types of injection in spring and what is the differene among them
+How do you handle exception in current project/application
+Custome exceptions in java will you use Checked or unchecked exceptions and why are you choosing that.
+what do you understand by bean in spring
+what is annotations in spring boot
+what is inversion of control in spring boot
+what are the different frame work younhave used for unit testing.
+He asked the best practices to follow while writing an API. And then gave an example like suppose we have to update the dept of an employee how we'll write following the best practices.
+SOLID principles 
+TaskExecutor
+Service Registry
+Monitor Service failure
+Query for pagination
+How to make a class thread safe while implementing async programming?
+Advantage of SpringBoot over Spring
+How to mock a method in controller class?
+What is ResponseEntity?
+Different http status codes.
+One client needs the response from the service in JSON format and another client needs in XML format. How will you handle this scenario?
+What happens if we annotate a service class with @Repository?
+New features in Java 11.
+asked to write method signature only of Rest API Controller logic.
+He asked the best practices to follow while writing an API. And then gave an example like suppose we have to update the dept of an employee how we'll write following the best practices.
+Difference b/n spring singleton and Java singleton
+Design patterns :factory ,Singleton, strategy
+dependency Injection ,Constructor ,setter injection , and difference
+Spring vs SPring boot
+BeanFactory and applicationContext container how objects are created and differences
+Hibernate Cache
+Diff b/n Hibernate and JPA
+Microservices Transaction
+fallback methods and Circuit Breaker
+SOLID principles
+better to have AWS knowledge
+
+coding :
+Reversing words in given string.
+EmployeeUpdate()-> rest endpoint
+Junit Test case using Mockito for rest controller
+String str="AABBB";find hightest number of time cocurence character; 
+RestEnd -> point creating Employee 
+Microservices disadvantages 
+Unit testing  
+Experiance on Microservices 
+Security related Oauth, jwt security  
+Connecting DB things .. 
+creational design pattern 
+SOLID principles 
+Spring Bean and Java Bean Difference 
+Have used Singleton class without sprinboot  
+About Factory Design Pattern  
+
+coding :
+write code to check palindrom string
+From list of employee get the salary of employee in list using java8
+EmployeeUpdate()-> rest endpoint
+
+Microservices disadvantages
+Microservices communication
+solid principle
+difference between Dependency inversion and Dependency injection
+how to find issue in microservices failure
+how to handle response in case of microservice failure in your project
+dependency Injection ,Constructor ,setter injection
+how to handle asysnc comunication in microservices
+difficulty faced for microservices
+
+
+
+

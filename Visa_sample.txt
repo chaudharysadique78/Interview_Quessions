@@ -1,0 +1,47 @@
+VISA_QB
+Programming Questions: 
+1.	There is a list of number from 1 to 20 and there are three threads which will print the numbers 
+Thread-1 will print numbers which are divisible by 3
+Thread-2 will print numbers which are divisible by 5
+Thread-3 will print remaining numbers in the list
+
+How will you approach this and what if numbers to be printed sequentially as well from 1 to 20.
+
+2.	There is an array of numbers and given a variable K (let say has value 4)
+Need to find pair of numbers in the list such that when you divide them the remainder is equal to K
+
+Or 
+
+Need to find pair of numbers in the list such the when you sum then you will get the sum as K.
+3.	Need to complete the code for the below ‘check’ function: 
+public boolean check(String target, String[] arr) {
+              // To-Do
+
+   
+}
+
+check("abcdef", ["ab", "cd", "abc", "de", "def", "ef"]);  // true
+check("xabcdef", ["ab", "cd", "abc", "de", "def", "ef"]); // false
+
+given array of String and a target string need to find out if the strings in the given array concatenates and form the target string. If form then return true else false.
+
+4.	Remove duplicate characters in the given string. Below are the constraints needs to be followed: 
+a.	Can’t use any Collection like Set, Map for duplicate character checking
+b.	Time complexity should be O(n)
+c.	No use of String comparison method
+d.	Not take each char and compare it with string or other character
+e.	Return value should be string without duplicate characters.
+
+Theory Questions: 
+1.	What are the new features introduced in Java8
+2.	What are functional interfaces and why they introduced in java.
+3.	How to make immutable classes in java. 
+4.	If you have a user defined class, and stored in hashmap using object as key. How to approach that (equals and hashcode overriding). And if you change one of the state variable for the object then you won’t be able to get the object, how will you approach it (making class immutable – solution).
+5.	How conflict in dependent bean creation handled which annotation to use (Qualifier and Primary annotation)
+6.	Difference between Spring and Spring Boot
+7.	Features of Spring boot
+8.	Difference between Spring Boot and Spring MVC (asking about dispatcher servlet flow)
+9.	How to do transaction management (ACID transactions) in spring boot (jdbcTemplate)
+10.	What are Intermediate and terminal operations in Stream API and also examples of them.
+11.	Which authentication mechanism you used in your previous project. 
+12.	What are @Autowired and @Resource annotations.

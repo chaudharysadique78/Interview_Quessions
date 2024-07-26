@@ -1,0 +1,56 @@
+
+
+ String str="ABA";
+ StringBuilder st=new StrinBuilder();
+ st.reverse();
+ String reverse=st.toString();
+if(str.equalsIgnoreCase(reverse)){
+System.out.println("given String is pallindrom");
+}else{
+System.out.println("given String is not pallindrom");
+} 
+
+
+
+for(int i=str.length()-1;i>=0;i--){
+st.append(str.charAt(i);
+}
+
+int half=str.length/2
+
+for(int i=0;i<half;i++){
+for(int j=str.length-1;i>=half;j++){
+if(str.charAt[i].equalsIgnoreCase(str.charAt[j]))
+System.out.println("given String is not pallindrom")
+}
+}
+System.out.println("given String is pallindrom");
+
+if(str.equalsIgnoreCase(st.toString())){
+System.out.println("given String is pallindrom");
+}else{
+System.out.println("given String is not pallindrom");
+} 
+
+
+@Autowired
+EmployeeRepo employeeRepo
+
+@PutMapping("/updateemployee/{id}")
+public ResponseEntity updateemployee(@RequestBody Employee employee,@PathVariable("id") Long id){
+Employee exsistingEmployee=employeeRepo.findByid(id).get();
+if(exsistingEmployee==null){
+  
+}
+exsistingEmployee.setName(employee.getName());
+exsistingEmployee.setemail(employee.getEmail());
+employeeRepo.save(exsistingEmployee);
+return new ResponseEntity(exsistingEmployee,Httpstatus.CREATED);
+}
+
+
+
+
+
+
+

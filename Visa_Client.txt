@@ -1,0 +1,78 @@
+project payloads api
+how to make api secure in backend
+where roles are stored
+
+
+
+higest salry based on department
+eployee_table
+emp_id, name, dept_id, salary
+ 
+dept_table
+dept_id, dept_name
+
+
+select emp_id,name,e.salary,max(salary) from employee group by dept_id;
+
+
+higest salary student
+
+public class Student {
+	
+	private int sno;
+	private String sname;
+	private int marks;
+	
+	public Student(int sno, String sname, int marks) {
+		this.sname = sname;
+		this.sno = sno;
+		this.marks = marks;
+	}
+	public int getSno() {
+		return sno;
+	}
+	public void setSno(int sno) {
+		this.sno = sno;
+	}
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		List<Student> list = new ArrayList<>();
+		list.add(new Student(10001, "ABC", 100));
+		list.add(new Student(10002, "XYZ", 25));
+		list.add(new Student(10003, "John", 100));
+		list.add(new Student(10004, "Jock", 90));
+		
+		
+		=list.stream().max(Comparator.comparingInt(Student::getMarks()).orElse(null));
+
+
+***********************************************************************************************
+Programming
+write a program to check code snippet.
+reverse string program 
+collection of numbers 1 to 10, when we add them get the sum as k some value
+
+Theory
+class loaders in java	
+What are the new features introduced in Java8
+What are functional interfaces and why they introduced in java.
+How to make signleton class.
+Bean scope in spring
+Why we make class immutable
+Difference between Spring and Spring Boot
+Features of Spring boot
+	

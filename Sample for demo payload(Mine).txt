@@ -1,0 +1,257 @@
+{
+    "associateDetails": [
+        {
+            "associateId": "71225670"
+        }
+    ],
+    "billingInfo": {
+        "addressLine1": "156 34TH STREET",
+        "addressLine2": "",
+        "addressLine3": "",
+        "city": "MCLEAN",
+        "country": "USA",
+        "countryCode": "840",
+        "customerId": "65594494",
+        "dayPhone": "6382029948",
+        "emailId": "OINDRILLA.SEN@MACYS.COM",
+        "firstName": "OINDRILLA",
+        "lastName": "SEN",
+        "secondaryPhone": "6382029948",
+        "state": "VA",
+        "zipCode": "22102",
+        "homePhn": "0"
+    },
+	"orderChannelStore": "139",
+    "orderDate": "2023-01-31T06:42:31.392000000Z",
+    "orderDeviceIp": "97.65.3.32",
+	 "orderLines": [
+        {
+            "deliveryMethod": "GROUND",
+            "deliverySubService": "C",
+            "deliveryType": "PICKUP",
+            "fulfillmentType": "BOSS",
+            "giftDetails": {
+                "giftMessage": "",
+                "giftWrapCode": "N",
+                "giftReceipt": false
+            },
+            "groupCode": "COOK3",
+            "hidePriceFlag": "false",
+            "lineId": 1,
+            "lineType": "PRODUCT",
+            "marketingPartnerId": "",
+            "optInSmsPhone": "6382029948",
+            "optInSmsFlag": true,
+            "orderLineCharges": [],
+            "orderLineStatuses": [
+                {
+                    "estimatedDeliveryTs": "9999-01-01T23:59:59.999999999Z",
+                    "estimatedShipTs": "2023-02-15T17:33:48.000000929Z",
+                    "fulfillmentChannel": "DROPSHIP",
+                    "fulfillmentDivision": "72",
+                    "fulfillmentLocation": "6300",
+                    "fulfillmentStore": "158",
+                    "groupingId": "1",
+                    "lineRefNumber": "1",
+                    "refShipmentId": "1",
+                    "pickupDivision": "72",
+                    "pickupLocation": "362",
+                    "pickupChannel": "STR",
+                    "pickupStore": "27",
+                    "statusQuantity": 1,
+                    "totalQuantity": 1
+                }
+            ],
+            "orderLineTaxExemptions": [
+                {
+                    "taxExemptionId": "",
+                    "taxExemptionReasonCode": "",
+                    "taxPayerId": "",
+                    "taxExemptFlag": "N"
+                }
+            ],
+            "orderLineTaxes": [
+                {
+                    "chargeCategory": "CHARGE",
+                    "chargeType": "MERCHANDISE",
+                    "tax": "3.47",
+                    "taxName": "MERCHANDISE"
+                }
+            ],
+            "orderedQty": 1,
+            "originalOrderedQty": 1,
+            "originalUnitPrice": "54.00",
+            "productAdditionalAttributes": {
+                "colorDescription": "",
+                "productDesc": "Calphalon Nonstick Brownie Pan",
+                "productGroup": "COOK3",
+                "shipAlone": "N",
+                "vendorDesc": "SUNBEAM HOUSEWARE",
+                "sizeDescription": "NO SIZE"
+            },
+            "registryId": "0",
+            "reservationId": "24866945",
+            "unitPrice": "54.00",
+            "upcNumber": "16853055524",
+            "registryBarcode": "N",
+            "addressDetails": [
+                {
+                    "type": "PICKUPLOCATION",
+                    "addressLine1": "630 OLD COUNTRY ROAD",
+                    "addressLine2": "",
+                    "addressLine3": "",
+                    "city": "GARDEN CITY",
+                    "country": "USA",
+                    "countryCode": "840",
+                    "state": "NY",
+                    "zipCode": "11530"
+                },
+                {
+                    "type": "PICKUP",
+                    "customerId": "65595187",
+                    "dayPhone": "6382029948",
+                    "emailId": "OINDRILLA.SEN@MACYS.COM",
+                    "firstName": "OINDRILLA",
+                    "lastName": "SEN",
+                    "secondaryPhone": "6382029948"
+                }
+            ],
+            "orderChannelDivision": "72",
+            "marketPlaceDetails": {
+                "sellerId": ""
+            },
+            "offerId": "",
+            "siteItemId": "3"
+        },
+        {
+            "deliveryMethod": "GROUND",
+            "deliverySubService": "C",
+            "deliveryType": "PICKUP",
+            "fulfillmentType": "BOSS",
+            "giftDetails": {
+                "giftMessage": "",
+                "giftWrapCode": "N",
+                "giftReceipt": false
+            },
+            "groupCode": "FINJWL",
+            "hidePriceFlag": "false",
+            "lineId": 2,
+            "lineType": "FINJWL",
+            "marketingPartnerId": "",
+            "optInSmsPhone": "6382029948",
+            "optInSmsFlag": true,
+            "orderLineCharges": [],
+            "orderLineStatuses": [
+                {
+                    "estimatedDeliveryTs": "9999-01-01T23:59:59.999999999Z",
+                    "estimatedShipTs": "2023-02-15T17:33:48.000000929Z",
+                    "fulfillmentChannel": "POOL",
+                    "fulfillmentDivision": "72",
+                    "fulfillmentLocation": "6274",
+                    "fulfillmentStore": "135",
+                    "groupingId": "1",
+                    "lineRefNumber": "1",
+                    "refShipmentId": "1",
+                    "pickupDivision": "72",
+                    "pickupLocation": "362",
+                    "pickupChannel": "STR",
+                    "pickupStore": "27",
+                    "statusQuantity": 1,
+                    "totalQuantity": 1
+                }
+            ],
+            "orderLineTaxExemptions": [
+                {
+                    "taxExemptionId": "",
+                    "taxExemptionReasonCode": "",
+                    "taxPayerId": "",
+                    "taxExemptFlag": "N"
+                }
+            ],
+            "orderLineTaxes": [
+                {
+                    "chargeCategory": "CHARGE",
+                    "chargeType": "MERCHANDISE",
+                    "tax": "10.00",
+                    "taxName": "MERCHANDISE"
+                }
+            ],
+            "orderedQty": 1,
+            "originalOrderedQty": 1,
+            "originalUnitPrice": "200.00",
+            "productAdditionalAttributes": {
+                "colorDescription": "",
+                "productDesc": "EMPIREMOPCLUSTERRG",
+                "productGroup": "FINJWL",
+                "shipAlone": "N",
+                "vendorDesc": "FREIDA ROTHMAN",
+                "sizeDescription": "NO SIZE"
+            },
+            "registryId": "0",
+            "reservationId": "24866945",
+            "unitPrice": "200.00",
+            "upcNumber": "849524079914",
+            "registryBarcode": "N",
+            "addressDetails": [
+                {
+                    "type": "PICKUPLOCATION",
+                    "addressLine1": "630 OLD COUNTRY ROAD",
+                    "addressLine2": "",
+                    "addressLine3": "",
+                    "city": "GARDEN CITY",
+                    "country": "USA",
+                    "countryCode": "840",
+                    "state": "NY",
+                    "zipCode": "11530"
+                },
+                {
+                    "type": "PICKUP",
+                    "customerId": "65595187",
+                    "dayPhone": "6382029948",
+                    "emailId": "OINDRILLA.SEN@MACYS.COM",
+                    "firstName": "OINDRILLA",
+                    "lastName": "SEN",
+                    "secondaryPhone": "6382029948"
+                }
+            ],
+            "orderChannelDivision": "72",
+            "marketPlaceDetails": {
+                "sellerId": ""
+            },
+            "offerId": "",
+            "siteItemId": "3"
+        }
+    ],
+	"addNotes": [],
+	"customerPreferences": [
+        {
+            "name": "PickUpPerson",
+            "value": "PickUp",
+            "type": "PickUp"
+        }
+    ]
+}
+
+
+
+Code API
+
+OrdermodorchestratorController
+
+  @PostMapping(
+      value = "${controller.modifyorder.path}")
+    public ResponseEntity<Orderdetails> modifyOrder(
+            @ApiParam(value = "Order Modification Request", required = true)
+            @Validated({CreateGroup.class})
+            @RequestBody Order orderRequest, @RequestHeader HttpHeaders httpHeaders) {
+        Orderdetails data = ordermodorchestratorService.modifyOrder(orderRequest, httpHeaders);
+        if (data != null) {
+            return new ResponseEntity<>(data, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+    }
+	
+	
+	
+	
