@@ -11,7 +11,6 @@ Given an integer array nums, move all 0's to the end of it while maintaining the
 Input: nums = [0,1,0,3,12]
 Output: [1,3,12,0,0]
 
-
 Q1.
 You are given an array of integers. Your task is to create pairs of them, such that every pair consists of equal numbers. Each array element may belong to one pair only. Is it possible to use all of the integers?
 
@@ -134,3 +133,105 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..100,000];
 string letters is made only of letters (a−z and/or A−Z).
+
+
+
+VISA:
+1.
+public class Example {
+//    Given an integer array nums, move all
+//        0's to the end of it while maintaining the
+//    relative order of the non-zero elements.
+//    Input: nums = [0,1,0,3,12]
+//    Output: [1,3,12,0,0]
+//    public void moveZeroes(int[] nums) {
+ 
+ 
+    public int[] getArray(int[] arr) {
+        int index = -1;
+        boolean sec=false;
+ 
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0 && index == -1) {
+                index = i;
+            }
+            if (index >= 0 && arr[i] != 0) {
+                int temp = arr[i];
+                arr[i] = 0;
+                arr[index] = temp;
+                index++;
+ 
+            }
+        }
+ 
+        return arr;
+}
+
+2.What is authentication ,Authorization .
+3.How you Authenticate your application in your project .
+4.How many ways you can authenticate a system.
+5.How you configure logging .
+5.Deisn patterns of micro services like circuit breaker ,Saga design pattern 
+6.Disadvantages of micro services 
+7.What is Api gateway .
+8.Chalanges you faced in the last project .
+9.where you have used kafka in your project .
+
+
+Cambridge
+1.iteration wise which collection is good between list and set
+2.how hashmap working internally
+3.what is @autowired
+4.about kafka
+5.what is kafka connectors,
+6.about s3 bucket in aws.
+7.cloud deployment
+8.about Aws knowledge 
+9.core java java8 questions 
+10.about deployment process exp
+11.CI/CD pipeline question(about hoe u will create artifact branch wise)
+12.hashmap internally which collection is using for storage purpose.
+13.about hashcode() and euqals()
+14. jenkins knowledge 
+15.partition limit in kafka
+16. what is the use of kafka
+
+
+Cambridge interview questions (internal round)
+Introduction
+How hasmap internally works?
+After Java 8 what what are the changes in hashmap?
+Asked Kafka questions like suppose we are having different partitions so what parameters we need to use to differentiate them.
+How can we do microservices communication?
+what are the sorting methods to sort data?
+volatile keyword
+what is Eureka server?
+Asked project related questions like how code was deployed? How many services you have created in brief?
+Garbage collection process
+Hashcode()
+
+ VISA client first round 
+1.Write a code to return if the given string is palindrome or not ?
+2.write a junit test cases for the given palindrome program?
+3.write code for the given nth Fibonacci number?
+4.write a junit test cases for the above Fibonacci program?
+5.And he asked for a rating individually like Java, spring,bigdata,ci/cd pipeline etc
+
+
+second round VISA client
+1.self introduction
+2. Previous projects architecture and Ur role, using technologies etc.
+3. vulnerabilities in java application 
+4.Log Forging fixing in java
+5. Log 4j working and usage
+6.ci/cd pipeline  
+7. Jenkins and deployment
+8.Rest API end to end process , checking endpoints
+9.Compare ASCII sum of 2 strings in java program?
+10.Explantaion the code and output
+
+ 
+
+
+
+
